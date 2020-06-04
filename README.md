@@ -28,6 +28,7 @@ Easily add, change or remove creative assets across different ad groups and camp
 ## Setup
 
 Download the latests zip file under the 'release' tab.
+Create a folder called "assetMG" and extract the zip file to it.
 
 0. Optional step: consider using
 [virtualenv](https://virtualenv.pypa.io/en/latest/) to isolate the Python
