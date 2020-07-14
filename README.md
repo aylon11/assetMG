@@ -30,6 +30,9 @@ Easily add, change or remove creative assets across different ad groups and camp
 Download the latests zip file under the 'release' tab.
 Create a folder called "assetMG" and extract the zip file to it.
 
+0. Open Terminal and navigate to the folder where you extracted the file
+
+
 1. Create a virtual environment
 [virtualenv](https://virtualenv.pypa.io/en/latest/) to isolate the Python
 environment and libraries:
@@ -52,23 +55,12 @@ environment and libraries:
   pip3 install -r requirements.txt
   ```
 
-3. Edit `config.yaml` and replace placeholders with your Google Ads
-  account ID, OAuth 2 credentials, and developer token.
-  
-4. Acquire OAuth 2 refresh token running the script with `-a` option and
-  following on-screen prompts:
-  (You only need to do it the first time you are using)
+3. Run the app
   ```bash
-  python3 app.py -a
-  ```
-
-5. Run the app
-  ```bash
-  python3 app.py
+  python3 assetMG.py
   ```
   
-6. Open your browser, and go to 127.0.0.1:5000
-
+4. If it is your first time using assetMG, please provide relevant credentials
 
 ## Managing Universal App Campaigns' assets.
 
