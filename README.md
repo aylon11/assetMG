@@ -35,21 +35,21 @@ Open Terminal/CMD and navigate to the folder where you extracted the file
 For Mac/Linux, copy the following block and paste it in the Terminal:
 
 ```
-  python3 -m venv .venv
-  . .venv/bin/activate
-  pip3 install -r requirements.txt
-  export LC_ALL=en_US.UTF-8
-  export LANG=en_US.UTF-8
-  python3 assetMG.py
+python3 -m venv .venv
+. .venv/bin/activate
+pip3 install -r requirements.txt
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+python3 assetMG.py
 ```
 
 For Windows, copy the following block and paste it in the console:
 
 ```
-  python3 -m venv .venv
-  .venv\Scripts\activate.bat
-  pip3 install -r requirements.txt
-  python3 assetMG.py
+python3 -m venv .venv
+.venv\Scripts\activate.bat
+pip3 install -r requirements.txt
+python3 assetMG.py
 ```
 
 ### Steps Breakdown
