@@ -30,8 +30,29 @@ Easily add, change or remove creative assets across different ad groups and camp
 Download the latests zip file under the [release](https://github.com/aylon11/assetMG/releases/tag/beta_1) tab.
 Create a folder called "assetMG" and extract the zip file to it.
 
-0. Open Terminal and navigate to the folder where you extracted the file
+Open Terminal/CMD and navigate to the folder where you extracted the file
 
+For Mac/Linux, copy the following block and paste it in the Terminal:
+
+```
+python3 -m venv .venv
+. .venv/bin/activate
+pip3 install -r requirements.txt
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+python3 assetMG.py
+```
+
+For Windows, copy the following block and paste it in the console:
+
+```
+python3 -m venv .venv
+.venv\Scripts\activate.bat
+pip3 install -r requirements.txt
+python3 assetMG.py
+```
+
+### Steps Breakdown
 
 1. Create a virtual environment
 [virtualenv](https://virtualenv.pypa.io/en/latest/) to isolate the Python
