@@ -95,6 +95,26 @@ environment and libraries:
   
 4. If it is your first time using assetMG, please provide relevant credentials
 
+## Running the App
+
+After the first installation, in order to run the app just open the terminal/console, navigate to the app's directory and:
+
+For mac/linux, copy the following block and paste in the Terminal:
+
+```
+. .venv/bin/activate
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+python3 assetMG.py
+```
+
+For Windows, copy the following block and paste in the Console:
+
+```
+.venv\Scripts\activate.bat
+python3 assetMG.py
+```
+
 ## Managing Universal App Campaigns' assets.
 
 Choose an account from the accounts list on the top.
