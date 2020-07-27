@@ -60,6 +60,16 @@ environment and libraries:
   python3 assetMG.py
   ```
   
+  if you get the following error:
+  ```
+  ValueError: unknown locale: UTF-8
+  ```
+  Please enter these lines in the console:
+  ```bash
+  export LC_ALL=en_US.UTF-8
+  export LANG=en_US.UTF-8
+  ```
+  
 4. If it is your first time using assetMG, please provide relevant credentials
 
 ## Managing Universal App Campaigns' assets.
